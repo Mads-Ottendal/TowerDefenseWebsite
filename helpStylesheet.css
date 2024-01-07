@@ -56,7 +56,7 @@ body{
 .middle{
     background-color: #252837;
     z-index: 1;
-    height: 100vh;
+    height: 100%;
 }
 
 #video{
@@ -64,7 +64,7 @@ body{
     top: 0;
     float: right;
     margin-right:10%;
-    margin-top: 3.5%;
+    margin-top: 2%;
     width: 30vw;
     border: none;
     shape-outside: url("Video/TTD-VIDEO.m4v");
