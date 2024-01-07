@@ -1,4 +1,7 @@
+
+
 body{
+    --textColor: #fefefe;
     margin: 0;
     padding: 0;
 }
@@ -10,13 +13,14 @@ body{
 }
 
 .header{
-    background-color: #333;
+    background-color: #1D1F2B;
     overflow: hidden;
+
 }
 
 .header a{
     float: left;
-    color: #fefefe;
+    color: var(--textColor);
     text-align: center;
     aspect-ratio: 1.5/1;
     height: 100%;
@@ -25,8 +29,14 @@ body{
 }
 
 .header a p{
-    position: relative;
-    top: 33%;
+    vertical-align: center;
+    horiz-align: center;
+}
+
+
+.header a.active{
+    background-color: #04AA6D;
+    color: var(--textColor);
 }
 
 .header a:hover{
@@ -34,17 +44,20 @@ body{
     color: black;
 }
 
-.header a.active{
-    background-color: #04AA6D;
-    color: white;
+.alignTextDiv{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 
 
+
 .middle{
-    background-color: orange;
+    background-color: #252837;
 }
 
 #video{
@@ -55,7 +68,7 @@ body{
     margin-top: 2%;
     width: 30vw;
     border: none;
-    shape-outside: url("Video/testvideo.mov");
+    shape-outside: url("Video/TTD-VIDEO.m4v");
     filter: drop-shadow(5px 5px 5px #666666);
 
 }
@@ -64,24 +77,51 @@ h1{
     padding-left: 1%;
     padding-top: 1%;
     margin: 0;
+    font-size: 50px;
+    color: var(--textColor);
 }
 
 p{
     margin: 0;
     padding-left: 1%;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Times New Roman";
     line-height: 1.6;
+    color: var(--textColor);
 }
 
 .paragraphspace{
     padding-top: 1.5%;
 }
 
+#downLoadLink{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#downLoadLink span{
+    filter: drop-shadow(2px 2px 2px #666666);
+}
+
+.downloadparagraph{
+    color: -webkit-link;
+    font-size: 45px;
+}
+
+.downloadparagraph a:hover{
+    cursor: pointer;
+    color: #fefefe;
+}
+
+.explaitionOnHowToPlayGame{
+    padding-top: 1%;
+}
 
 .buttom{
-    background-color: rebeccapurple;
-
+    background-color: #252837;
 }
 
 
