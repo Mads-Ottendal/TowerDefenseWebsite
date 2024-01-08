@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TTD</title>
+    <title>TTD-Help</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="javascript.js"></script>
 </head>
-<body onload="addInputToArrayList()">
+<body onload="onLoadFunction()">
 <div class="container">
     <div class="header">
-        <a href="index.html" id="gameID"><div class="alignTextDiv" onclick="changeContainerSize()"><p>Game</p></div></a>
-        <a class="active" href="help.html" onclick="changeContainerSize()" id="helpID"><div class="alignTextDiv"><p>Help</p></div></a>
+        <a href="index.html" onclick="changeContainerSize()"><div class="alignTextDiv"><p>Game</p></div></a>
+        <a class="active" href="help.html" onclick="changeContainerSize()"><div class="alignTextDiv" id="GameIDDiv"><p>Help</p></div></a>
     </div>
 
-    <div class="middle" id="middleID">
+    <div class="middle">
         <h1>HOW TO PLAY THE GAME</h1>
         <p>To play this game you first have to download the game by clicking the link from the game tab</p>
         <div class="pictureDiv"><img class="pictures" src="Pictures/downloadlink.png"></div>

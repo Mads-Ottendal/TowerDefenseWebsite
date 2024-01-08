@@ -1,14 +1,27 @@
 
+
+
+
+
+
+
+var sheet = document.styleSheets[0];
+const title = document.title;
+
+function onLoadFunction(){
+    addInputToArrayList();
+    changeContainerSize();
+}
+
+
 function changeContainerSize() {
-    let help = document.getElementById("helpID");
-    const middle = document.getElementById("middleID");
-    if (help.classList.contains("active")) {
+    if (title=='TTD-Help') {
         console.log("We are in if")
-        middle.style.height = '100%';
+        sheet.insertRule(".middle { height: 100% !important }", 0);
     }
     else {
         console.log("We in else")
-        middle.style.height = '100vh';
+        sheet.insertRule(".middle { height: 100vh !important }", 0);
     }
 }
 
@@ -25,6 +38,7 @@ function addInputToArrayList(){
     })
 
 }
+
 
 function tharanikaIsSmol(){
       if(concatArray.includes("tharanika")){
@@ -82,5 +96,4 @@ function textToSpeech(toBeSaid){
         console.log(' Speech Synthesis Not Supported 😞');
     }
 }
-
 

@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MyWebsite</title>
+    <title>TTD-Game</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="javascript.js"></script>
 </head>
-<body onload="addInputToArrayList()">
+<body onload="onLoadFunction()">
 <div class="container">
     <div class="header">
-        <a class="active" href="index.html" onclick="changeContainerSize()" id="gameID"><div class="alignTextDiv"><p>Game</p></div></a>
-        <a href="help.html" onclick="changeContainerSize()" id="helpID"><div class="alignTextDiv"><p>Help</p></div></a>
+        <a class="active" href="index.html" onclick="changeContainerSize()"><div class="alignTextDiv"><p>Game</p></div></a>
+        <a href="help.html"><div class="alignTextDiv" onclick="changeContainerSize()"><p>Help</p></div></a>
     </div>
 
     <div class="middle" id="middleID">
