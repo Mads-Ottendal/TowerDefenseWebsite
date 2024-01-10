@@ -17,7 +17,6 @@ addEventListener("DOMContentLoaded",onLoadFunction);
 function onLoadFunction(){
     changeContainerSize();
     formString()
-    createSnow(200);
 }
 
 
@@ -43,7 +42,7 @@ function formString() {
         console.log(smallElement);
         concatArray = array.join("");
         tharanikaIsSmol();
-        //letItSnow()
+        letItSnow()
     })
 
 }
@@ -58,36 +57,33 @@ function tharanikaIsSmol() {
     }
 }
 
-    let letItSnowCounter = 0;
+let letItSnowCounter = 0;
 function letItSnow(){
     if(concatArray.includes("letitsnow"|| "let it snow")){
-        console.log("Hello it is snow")
         letItSnowCounter++;
+        array = [];
+        concatArray = [];
         if(letItSnowCounter%2==0){
             removeSnowDiv();
-            return;
-        }
-        for(let j = 0; j<200; j++){
-            let snowDiv = document.createElement("div");
-            snowDiv.setAttribute("class", "snow");
-            container.appendChild(snowDiv);
-        }
+            console.log("Remove snow")
+        }else {
 
+            console.log("It be snowing")
+            createSnow(200);
+        }
     }
 
 }
 
 function removeSnowDiv(){
-    for (let i = 0; i <container.childElementCount; i++) {
-        if(container.children[i].classList.contains("snow")){
-            container.children[i].remove();
+let divs = document.getElementsByTagName("div");
+    for(let i = divs.length-1; i>0; i--){
+        if(divs[i].classList.contains("snow")){
+            divs[i].remove();
         }
     }
 }
 
-function snowFromSky(){
-
-}
 
 function textToSpeech(toBeSaid){
     function getVoices() {
