@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="Size of middle works now" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Mads-Ottendal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="44f1f963-9893-4b45-b680-82c416b5c0a7" />
+        <option name="url" value="https://github.com/Mads-Ottendal/TowerDefenseWebsite.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ad4TmPSRLHfZfGKynWsHnZU6Nm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pictures" />
+      <recent name="$PROJECT_DIR$/the game" />
+      <recent name="$PROJECT_DIR$/Video" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="" />
+      <created>1704635133021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704635133021</updated>
+      <workItem from="1704635134027" duration="143000" />
+      <workItem from="1704637535257" duration="8966000" />
+      <workItem from="1704653524633" duration="3998000" />
+      <workItem from="1704658098109" duration="4113000" />
+      <workItem from="1704662388185" duration="212000" />
+      <workItem from="1704662788886" duration="1873000" />
+      <workItem from="1704716984564" duration="6754000" />
+      <workItem from="1704787485351" duration="74000" />
+    </task>
+    <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
+      <option name="closed" value="true" />
+      <created>1704646057262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646057262</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Video should loop now">
+      <option name="closed" value="true" />
+      <created>1704646349862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646349862</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Video should loop now">
+      <option name="closed" value="true" />
+      <created>1704646553158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704646553158</updated>
+    </task>
+    <task id="LOCAL-00004" summary="The index/game tab is as it should be">
+      <option name="closed" value="true" />
+      <created>1704656849996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704656849997</updated>
+    </task>
+    <task id="LOCAL-00005" summary="small change to help">
+      <option name="closed" value="true" />
+      <created>1704657527580</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704657527580</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Help should be done">
+      <option name="closed" value="true" />
+      <created>1704662216941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704662216941</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Help should be done">
+      <option name="closed" value="true" />
+      <created>1704662566408</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704662566408</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Everything should work">
+      <option name="closed" value="true" />
+      <created>1704664661163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704664661163</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Made it work with Javascript">
+      <option name="closed" value="true" />
+      <created>1704717412726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704717412726</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Made easteregg for tharanika">
+      <option name="closed" value="true" />
+      <created>1704719906272</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704719906272</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Size of middle works now">
+      <option name="closed" value="true" />
+      <created>1704723754395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704723754395</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Website start for the download of the TTD game" />
+    <MESSAGE value="Video should loop now" />
+    <MESSAGE value="The index/game tab is as it should be" />
+    <MESSAGE value="small change to help" />
+    <MESSAGE value="Help should be done" />
+    <MESSAGE value="Everything should work" />
+    <MESSAGE value="Made it work with Javascript" />
+    <MESSAGE value="Made easteregg for tharanika" />
+    <MESSAGE value="Size of middle works now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Size of middle works now" />
+  </component>
+</project>
