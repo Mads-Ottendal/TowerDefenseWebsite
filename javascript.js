@@ -42,7 +42,8 @@ function formString() {
         console.log(smallElement);
         concatArray = array.join("");
         tharanikaIsSmol();
-        letItSnow()
+        letItSnow();
+        goToSlideShow();
     })
 
 }
@@ -165,6 +166,12 @@ const createSnow = (num) => {
     }
 }
 
+function goToSlideShow(){
+    if (concatArray.includes("treenigheden")){
+        console.log("Yes");
+        window.location = "slideShow.html";
+    }
+}
 
 
 
