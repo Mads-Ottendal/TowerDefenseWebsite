@@ -11,7 +11,7 @@ body{
     grid-template-rows: 1fr 14fr;
     height: 100vh;
     transition: opacity 500ms;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .header{
