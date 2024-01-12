@@ -62,75 +62,87 @@ main {
 }
 
 .slide-5 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/TharanikaSadFly.JPG");
     background-position: center center;
     background-size: 100% 100%;
+    height: 806px;
+    width: 605px;
 }
 
 .slide-6 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/MadsNinaBlåtVand.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 
 .slide-7 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/AlleUdsigtTilVandet.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 .slide-8 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/TharanikaSoloIs.JPG");
     background-position: center center;
     background-size: 100% 100%;
+    height: 806px;
+    width: 605px;
 }
 .slide-9 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/madsTharanikaGrinHosKrølle.jpg");
     background-position: center center;
     background-size: 100% 100%;
+    height: 806px;
+    width: 605px;
 }
 .slide-10 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/MadsNinaRuin.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 .slide-11 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/NinaTharanikaKøCambridge.JPG");
     background-position: center center;
     background-size: 100% 100%;
+    height: 806px;
+    width: 373px;
 }
 .slide-12 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/TharanikaSoloKirke.JPG");
     background-position: center center;
     background-size: 100% 100%;
+    height: 806px;
+    width: 605px;
 }
 .slide-13 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/madsNinaBorgLeptokaria.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 .slide-14 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/AlleBudaPestHøjt.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 .slide-15 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/NinaAleneBuda.JPG");
     background-position: center center;
     background-size: 100% 100%;
+    height: 806px;
+    width: 605px;
 }
 .slide-16 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/AlleUdsigtBy.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 .slide-17 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/AlleUdsigtThessalonikiHøjt.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
 
 .slide-18 {
-    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-image: url("/billederTilBilledGalleri/AlleGrinerHøjt.JPG");
     background-position: center center;
     background-size: 100% 100%;
 }
@@ -252,30 +264,79 @@ label {
 }
 
 #control-1:checked ~ .dot-1 {
-    transform: translate(-30px,2px);
+    transform: translate(-121px,2px);
 }
 
 #control-2:checked ~ .dot-2 {
-    transform: translate(-16px,2px);
+    transform: translate(-107px,2px);
 }
 
 #control-3:checked ~ .dot-3 {
-    transform: translate(-2px, 2px);
+    transform: translate(-93px, 2px);
 }
 
 #control-4:checked ~ .dot-4 {
-    transform: translate(12px,2px);
+    transform: translate(-79px,2px);
 }
 
 #control-5:checked ~ .dot-5 {
-    transform: translate(26px,2px);
+    transform: translate(-65px,2px);
 }
 
 #control-6:checked ~ .dot-6 {
-    transform: translate(40px,2px);
+    transform: translate(-51px,2px);
 }
 
-#control-1:checked ~ label[for="control-6"].prev, #control-1:checked ~ label[for="control-2"].next  {
+#control-7:checked ~ .dot-7 {
+    transform: translate(-37px,2px);
+}
+
+#control-8:checked ~ .dot-8 {
+    transform: translate(-23px,2px);
+}
+
+#control-9:checked ~ .dot-9 {
+    transform: translate(-9px,2px);
+}
+
+#control-10:checked ~ .dot-10 {
+    transform: translate(5px,2px);
+}
+
+#control-11:checked ~ .dot-11 {
+    transform: translate(19px,2px);
+}
+
+#control-12:checked ~ .dot-12 {
+    transform: translate(33px,2px);
+}
+
+#control-13:checked ~ .dot-13 {
+    transform: translate(47px,2px);
+}
+
+#control-14:checked ~ .dot-14 {
+    transform: translate(61px,2px);
+}
+
+#control-15:checked ~ .dot-15 {
+    transform: translate(75px,2px);
+}
+
+#control-16:checked ~ .dot-16 {
+    transform: translate(89px,2px);
+}
+
+#control-17:checked ~ .dot-17 {
+    transform: translate(103px,2px);
+}
+
+#control-18:checked ~ .dot-18 {
+    transform: translate(117px,2px);
+}
+
+
+#control-1:checked ~ label[for="control-18"].prev, #control-1:checked ~ label[for="control-2"].next  {
     display: inline-block;
 }
 
@@ -316,10 +377,117 @@ label {
     opacity: 1;
 }
 
-#control-6:checked ~ label[for="control-5"].prev, #control-6:checked ~ label[for="control-1"].next {
+#control-6:checked ~ label[for="control-5"].prev, #control-6:checked ~ label[for="control-7"].next {
     display: inline-block;
 }
 
 #control-6:checked ~ .slide-6 {
+    opacity: 1;
+}
+
+#control-7:checked ~ label[for="control-6"].prev, #control-7:checked ~ label[for="control-8"].next {
+    display: inline-block;
+}
+
+#control-7:checked ~ .slide-7 {
+    opacity: 1;
+}
+
+
+#control-8:checked ~ label[for="control-7"].prev, #control-8:checked ~ label[for="control-9"].next {
+    display: inline-block;
+}
+
+#control-8:checked ~ .slide-8 {
+    opacity: 1;
+}
+
+
+#control-9:checked ~ label[for="control-8"].prev, #control-9:checked ~ label[for="control-10"].next {
+    display: inline-block;
+}
+
+#control-9:checked ~ .slide-9 {
+    opacity: 1;
+}
+
+
+#control-10:checked ~ label[for="control-9"].prev, #control-10:checked ~ label[for="control-11"].next {
+    display: inline-block;
+}
+
+#control-10:checked ~ .slide-10 {
+    opacity: 1;
+}
+
+
+#control-11:checked ~ label[for="control-10"].prev, #control-11:checked ~ label[for="control-12"].next {
+    display: inline-block;
+}
+
+#control-11:checked ~ .slide-11 {
+    opacity: 1;
+}
+
+
+#control-12:checked ~ label[for="control-11"].prev, #control-12:checked ~ label[for="control-13"].next {
+    display: inline-block;
+}
+
+#control-12:checked ~ .slide-12 {
+    opacity: 1;
+}
+
+
+#control-13:checked ~ label[for="control-12"].prev, #control-13:checked ~ label[for="control-14"].next {
+    display: inline-block;
+}
+
+#control-13:checked ~ .slide-13 {
+    opacity: 1;
+}
+
+
+#control-14:checked ~ label[for="control-13"].prev, #control-14:checked ~ label[for="control-15"].next {
+    display: inline-block;
+}
+
+#control-14:checked ~ .slide-14 {
+    opacity: 1;
+}
+
+
+#control-15:checked ~ label[for="control-14"].prev, #control-15:checked ~ label[for="control-16"].next {
+    display: inline-block;
+}
+
+#control-15:checked ~ .slide-15 {
+    opacity: 1;
+}
+
+
+#control-16:checked ~ label[for="control-15"].prev, #control-16:checked ~ label[for="control-17"].next {
+    display: inline-block;
+}
+
+#control-16:checked ~ .slide-16 {
+    opacity: 1;
+}
+
+
+#control-17:checked ~ label[for="control-16"].prev, #control-17:checked ~ label[for="control-18"].next {
+    display: inline-block;
+}
+
+#control-17:checked ~ .slide-17 {
+    opacity: 1;
+}
+
+
+#control-18:checked ~ label[for="control-17"].prev, #control-18:checked ~ label[for="control-1"].next {
+    display: inline-block;
+}
+
+#control-18:checked ~ .slide-18 {
     opacity: 1;
 }
