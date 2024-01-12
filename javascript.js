@@ -181,7 +181,7 @@ function goToSlideShow(){
     }
 }
 let acrossTheStarsCounter = 0;
-let audio = new Audio('spotifydown.com - Across the Stars (Love Theme from _Star Wars_ Attack of the Clones_).mp3');
+let audio = new Audio('/Songs/spotifydown.com - Across the Stars (Love Theme from _Star Wars_ Attack of the Clones_).mp3');
 function acrossTheStars() {
     if (concatArray.includes("acrossthestars")) {
         acrossTheStarsCounter++;
