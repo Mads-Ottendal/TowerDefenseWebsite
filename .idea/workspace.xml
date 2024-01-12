@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="maybe work now">
-      <change beforePath="$PROJECT_DIR$/html/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/slideShow.html" beforeDir="false" afterPath="$PROJECT_DIR$/slideShow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="maybe work now" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +90,7 @@
       <workItem from="1704662788886" duration="1873000" />
       <workItem from="1704716984564" duration="6754000" />
       <workItem from="1704787485351" duration="74000" />
-      <workItem from="1705084750108" duration="792000" />
+      <workItem from="1705084750108" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -192,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705084919695</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="maybe work now">
+      <option name="closed" value="true" />
+      <created>1705086080770</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705086080770</updated>
+    </task>
+    <task id="LOCAL-00014" summary="maybe work now">
+      <option name="closed" value="true" />
+      <created>1705086095177</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705086095177</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
