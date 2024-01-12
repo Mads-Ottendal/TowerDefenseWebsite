@@ -177,64 +177,64 @@ label {
 }
 
 .dot-1 {
-    transform: translateX(calc(14px*(-2)));
+    transform: translateX(calc(14px*(-8.5)));
 }
 
 .dot-2 {
-    transform: translateX(calc(14px*(-1)));
+    transform: translateX(calc(14px*(-7.5)));
 }
 
 .dot-3{
-    transform: translateX(calc(14px*(0)));
+    transform: translateX(calc(14px*(-6.5)));
 }
 
 .dot-4 {
-    transform: translateX(calc(14px*(1)));
+    transform: translateX(calc(14px*(-5.5)));
 }
 
 .dot-5 {
-    transform: translateX(calc(14px*(2)));
+    transform: translateX(calc(14px*(-4.5)));
 }
 
 .dot-6 {
-    transform: translateX(calc(14px*(3)));
+    transform: translateX(calc(14px*(-3.5)));
 }
 
 .dot-7 {
-    transform: translateX(calc(14px*(4)));
+    transform: translateX(calc(14px*(-2.5)));
 }
 .dot-8 {
-    transform: translateX(calc(14px*(5)));
+    transform: translateX(calc(14px*(-1.5)));
 }
 .dot-9 {
-    transform: translateX(calc(14px*(6)));
+    transform: translateX(calc(14px*(-0.5)));
 }
 .dot-10 {
-    transform: translateX(calc(14px*(7)));
+    transform: translateX(calc(14px*(0.5)));
 }
 .dot-11 {
-    transform: translateX(calc(14px*(8)));
+    transform: translateX(calc(14px*(1.5)));
 }
 .dot-12 {
-    transform: translateX(calc(14px*(9)));
+    transform: translateX(calc(14px*(2.5)));
 }
 .dot-13 {
-     transform: translateX(calc(14px*(10)));
+     transform: translateX(calc(14px*(3.5)));
  }
 .dot-14 {
-    transform: translateX(calc(14px*(11)));
+    transform: translateX(calc(14px*(4.5)));
 }
 .dot-15 {
-    transform: translateX(calc(14px*(12)));
+    transform: translateX(calc(14px*(5.5)));
 }
 .dot-16 {
-    transform: translateX(calc(14px*(13)));
+    transform: translateX(calc(14px*(6.5)));
 }
 .dot-17 {
-    transform: translateX(calc(14px*(14)));
+    transform: translateX(calc(14px*(7.5)));
 }
 .dot-18 {
-    transform: translateX(calc(14px*(15)));
+    transform: translateX(calc(14px*(8.5)));
 }
 
 
