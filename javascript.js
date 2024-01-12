@@ -44,6 +44,7 @@ function formString() {
         tharanikaIsSmol();
         letItSnow();
         goToSlideShow();
+        acrossTheStars();
     })
 
 }
@@ -77,7 +78,7 @@ function letItSnow(){
 }
 
 function removeSnowDiv(){
-let divs = document.getElementsByTagName("div");
+    let divs = document.getElementsByTagName("div");
     for(let i = divs.length-1; i>0; i--){
         if(divs[i].classList.contains("snow")){
             divs[i].remove();
@@ -169,9 +170,48 @@ const createSnow = (num) => {
 function goToSlideShow(){
     if (concatArray.includes("treenigheden")){
         console.log("Yes");
-        window.location = "slideShow.html";
+        var path = window.location.pathname;
+        var page = path.split("/").pop();
+        if(page == "slideShow.html"){
+            window.location = "index.html"
+        }
+        else {
+            window.location = "slideShow.html";
+        }
     }
 }
+let acrossTheStarsCounter = 0;
+let audio = new Audio('/Songs/spotifydown.com - Across the Stars (Love Theme from _Star Wars_ Attack of the Clones_).mp3');
+function acrossTheStars() {
+    if (concatArray.includes("acrossthestars")) {
+        acrossTheStarsCounter++;
+        array = [];
+        concatArray = [];
+        var playPromise = audio.play();
+
+        if (acrossTheStarsCounter % 2 == 0) {
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {
+                    // Automatic playback started!
+                    // Show playing UI.
+                    // We can now safely pause video...
+                    audio.pause();
+                    console.log("stop song")
+                })
+                    .catch(error => {
+                        // Auto-play was prevented
+                        // Show paused UI.
+                    });
+            }
+            audio.currentTime = 0;
+        }
+        console.log("Across The Stars :)")
+    }
+}
+
+
+
+
 
 
 
