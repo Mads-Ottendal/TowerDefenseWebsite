@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="Size of middle works now" />
+    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="maybe work now">
+      <change beforePath="$PROJECT_DIR$/html/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/slideShow.html" beforeDir="false" afterPath="$PROJECT_DIR$/slideShow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +30,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,6 +72,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Pictures" />
       <recent name="$PROJECT_DIR$/the game" />
       <recent name="$PROJECT_DIR$/Video" />
@@ -88,6 +94,7 @@
       <workItem from="1704662788886" duration="1873000" />
       <workItem from="1704716984564" duration="6754000" />
       <workItem from="1704787485351" duration="74000" />
+      <workItem from="1705084750108" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -177,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704723754395</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="maybe work now">
+      <option name="closed" value="true" />
+      <created>1705084919695</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705084919695</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +208,7 @@
     <MESSAGE value="Made it work with Javascript" />
     <MESSAGE value="Made easteregg for tharanika" />
     <MESSAGE value="Size of middle works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Size of middle works now" />
+    <MESSAGE value="maybe work now" />
+    <option name="LAST_COMMIT_MESSAGE" value="maybe work now" />
   </component>
 </project>
