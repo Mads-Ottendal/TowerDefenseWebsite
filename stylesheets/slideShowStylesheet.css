@@ -73,7 +73,67 @@ main {
     background-size: 100% 100%;
 }
 
+.slide-7 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-8 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-9 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-10 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-11 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-12 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-13 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-14 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-15 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-16 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.slide-17 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
 
+.slide-18 {
+    background-image: url("/billederTilBilledGalleri/AllePåVejTilbage.JPG");
+    background-position: center center;
+    background-size: 100% 100%;
+}
 
 
 
@@ -117,26 +177,74 @@ label {
 }
 
 .dot-1 {
-    transform: translateX(-28px);
+    transform: translateX(calc(14px*(-2)));
 }
 
 .dot-2 {
-    transform: translateX(-14px);
+    transform: translateX(calc(14px*(-1)));
+}
+
+.dot-3{
+    transform: translateX(calc(14px*(0)));
 }
 
 .dot-4 {
-    transform: translateX(14px);
+    transform: translateX(calc(14px*(1)));
 }
 
 .dot-5 {
-    transform: translateX(28px);
+    transform: translateX(calc(14px*(2)));
 }
 
 .dot-6 {
-    transform: translateX(42px);
+    transform: translateX(calc(14px*(3)));
 }
 
-#control-1:checked ~ .dot-1, #control-2:checked ~ .dot-2, #control-3:checked ~ .dot-3, #control-4:checked ~ .dot-4, #control-5:checked ~ .dot-5, #control-6:checked ~ .dot-6 {
+.dot-7 {
+    transform: translateX(calc(14px*(4)));
+}
+.dot-8 {
+    transform: translateX(calc(14px*(5)));
+}
+.dot-9 {
+    transform: translateX(calc(14px*(6)));
+}
+.dot-10 {
+    transform: translateX(calc(14px*(7)));
+}
+.dot-11 {
+    transform: translateX(calc(14px*(8)));
+}
+.dot-12 {
+    transform: translateX(calc(14px*(9)));
+}
+.dot-13 {
+     transform: translateX(calc(14px*(10)));
+ }
+.dot-14 {
+    transform: translateX(calc(14px*(11)));
+}
+.dot-15 {
+    transform: translateX(calc(14px*(12)));
+}
+.dot-16 {
+    transform: translateX(calc(14px*(13)));
+}
+.dot-17 {
+    transform: translateX(calc(14px*(14)));
+}
+.dot-18 {
+    transform: translateX(calc(14px*(15)));
+}
+
+
+
+
+#control-1:checked ~ .dot-1, #control-2:checked ~ .dot-2, #control-3:checked ~ .dot-3, #control-4:checked ~ .dot-4, #control-5:checked ~ .dot-5, #control-6:checked ~ .dot-6,
+#control-7:checked ~ .dot-7, #control-8:checked ~ .dot-8, #control-9:checked ~ .dot-9, #control-10:checked ~ .dot-10, #control-11:checked ~ .dot-11,
+#control-12:checked ~ .dot-12, #control-13:checked ~ .dot-13, #control-14:checked ~ .dot-14, #control-15:checked ~ .dot-15,
+#control-16:checked ~ .dot-16, #control-17:checked ~ .dot-17, #control-18:checked ~ .dot-18
+{
     width: 12px;
     height: 12px;
     background-color:white;
