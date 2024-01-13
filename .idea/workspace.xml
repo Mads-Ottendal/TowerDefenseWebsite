@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment=".. before /">
+      <change beforePath="$PROJECT_DIR$/Songs/spotifydown.com - Across the Stars (Love Theme from _Star Wars_ Attack of the Clones_).mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Songs/acrossTheStars.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
       <workItem from="1705086580261" duration="74000" />
       <workItem from="1705086694902" duration="1531000" />
       <workItem from="1705101650106" duration="85000" />
-      <workItem from="1705144628386" duration="2060000" />
+      <workItem from="1705144628386" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -254,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705146735228</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=".. before /">
+      <option name="closed" value="true" />
+      <created>1705147398913</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705147398913</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
