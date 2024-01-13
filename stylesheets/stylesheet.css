@@ -76,16 +76,16 @@ body{
 
 h1{
     padding-left: 1%;
-    padding-top: 2.5%;
+    padding-top: 6vh;
     margin: 0;
-    font-size: 50px;
+    font-size: 2.4vw;
     color: var(--textColor);
 }
 
 p{
     margin: 0;
     padding-left: 1%;
-    font-size: 30px;
+    font-size: 1.3vw;
     font-family: "Times New Roman";
     line-height: 1.6;
     color: var(--textColor);
@@ -109,7 +109,7 @@ p{
 
 .downloadparagraph{
     color: -webkit-link;
-    font-size: 45px;
+    font-size: 2.2vw;
 }
 
 .downloadparagraph a:hover{
@@ -220,6 +220,14 @@ p a:hover{
 }
 
 
+@media screen and (max-width: 828px) {
+    h1{
+        padding-top: 2.5vh;
+    }
+
+
+
+}
 
 
 
