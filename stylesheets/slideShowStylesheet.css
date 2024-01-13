@@ -131,18 +131,18 @@ main {
     width: 605px;
 }
 .slide-16 {
-    background-image: url("/billederTilBilledGalleri/AlleUdsigtBy.jpg");
+    background-image: url("../billederTilBilledGalleri/AlleUdsigtBy.jpg");
     background-position: center center;
     background-size: 100% 100%;
 }
 .slide-17 {
-    background-image: url("/billederTilBilledGalleri/AlleUdsigtThessalonikiHøjt.jpg");
+    background-image: url("../billederTilBilledGalleri/AlleUdsigtThessalonikiHøjt.jpg");
     background-position: center center;
     background-size: 100% 100%;
 }
 
 .slide-18 {
-    background-image: url("/billederTilBilledGalleri/AlleGrinerHøjt.jpg");
+    background-image: url("../billederTilBilledGalleri/AlleGrinerHøjt.jpg");
     background-position: center center;
     background-size: 100% 100%;
 }
