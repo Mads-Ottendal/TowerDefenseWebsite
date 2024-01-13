@@ -181,13 +181,13 @@ function goToSlideShow(){
     }
 }
 let acrossTheStarsCounter = 0;
-let audio = new Audio('/Songs/acrossTheStars.mp3');
+let audio = new Audio("acrossTheStars.mp3");
 function acrossTheStars() {
     if (concatArray.includes("acrossthestars")) {
         acrossTheStarsCounter++;
         array = [];
         concatArray = [];
-        var playPromise = audio.play();
+        let playPromise = audio.play();
 
         if (acrossTheStarsCounter % 2 == 0) {
             if (playPromise !== undefined) {
