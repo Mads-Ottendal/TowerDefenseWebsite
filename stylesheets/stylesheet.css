@@ -176,7 +176,7 @@ p a:hover{
     padding-top: 1%;
     padding-bottom: 2%;
     filter: drop-shadow(5px 5px 5px #666666);
-    max-height: 25vw;
+    max-height: 35vw;
     width: auto;
 }
 
@@ -226,11 +226,25 @@ p a:hover{
 
 @media screen and (max-width: 828px) {
     h1{
-        padding-top: 2.5vh;
+        padding-top: 5.5vh;
+        font-size: 4vw;
     }
 
+    p{
+        font-size: 3vw;
+    }
 
+    video{
+        padding: 5px;
+    }
 
+    .downloadparagraph{
+        font-size: 3.5vw;
+    }
+
+    .picturesGameMenu{
+        max-height: 80vw;
+    }
 }
 
 

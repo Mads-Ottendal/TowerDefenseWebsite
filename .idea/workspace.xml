@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="make more responsive">
+      <change afterPath="$PROJECT_DIR$/Pictures/gameMenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/help.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,9 +75,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pictures" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Songs" />
-      <recent name="$PROJECT_DIR$/Pictures" />
       <recent name="$PROJECT_DIR$/the game" />
       <recent name="$PROJECT_DIR$/Video" />
     </key>
@@ -101,7 +104,7 @@
       <workItem from="1705086694902" duration="1531000" />
       <workItem from="1705101650106" duration="85000" />
       <workItem from="1705144628386" duration="4915000" />
-      <workItem from="1705156800778" duration="1495000" />
+      <workItem from="1705156800778" duration="4143000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -303,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705157945347</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="make more responsive">
+      <option name="closed" value="true" />
+      <created>1705158305884</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1705158305884</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
