@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="Back to normal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/slideShowStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/slideShowStylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +98,7 @@
       <workItem from="1705086580261" duration="74000" />
       <workItem from="1705086694902" duration="1531000" />
       <workItem from="1705101650106" duration="85000" />
+      <workItem from="1705144628386" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
