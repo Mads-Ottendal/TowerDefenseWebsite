@@ -181,7 +181,7 @@ function goToSlideShow(){
     }
 }
 let acrossTheStarsCounter = 0;
-let audio = new Audio('../Songs/acrossTheStars.mp3');
+let audio = new Audio('/Songs/acrossTheStars.mp3');
 function acrossTheStars() {
     if (concatArray.includes("acrossthestars")) {
         acrossTheStarsCounter++;
