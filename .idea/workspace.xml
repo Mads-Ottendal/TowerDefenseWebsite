@@ -101,7 +101,7 @@
       <workItem from="1705086694902" duration="1531000" />
       <workItem from="1705101650106" duration="85000" />
       <workItem from="1705144628386" duration="4915000" />
-      <workItem from="1705156800778" duration="5365000" />
+      <workItem from="1705156800778" duration="5681000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -327,7 +327,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705164313189</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added new picture, made more responsive">
+      <option name="closed" value="true" />
+      <created>1705164647878</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1705164647878</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added new picture, made more responsive">
+      <option name="closed" value="true" />
+      <created>1705164656756</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1705164656756</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
