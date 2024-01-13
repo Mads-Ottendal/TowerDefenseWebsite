@@ -226,12 +226,12 @@ p a:hover{
 
 @media screen and (max-width: 828px) {
     h1{
-        padding-top: 4vh;
-        font-size: 4.5vw;
+        padding-top: 2vh;
+        font-size: 9vw;
     }
 
     p{
-        font-size: 3vw;
+        font-size: 7vw;
     }
 
    video{
@@ -240,7 +240,7 @@ p a:hover{
    }
 
     .downloadparagraph{
-        font-size: 4vw;
+        font-size: 8vw;
     }
 
     .picturesGameMenu{
