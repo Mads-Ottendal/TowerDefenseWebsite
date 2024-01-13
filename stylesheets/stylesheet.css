@@ -132,6 +132,10 @@ p{
     filter: drop-shadow(5px 5px 5px #666666);
 }
 
+img{
+    max-width: 100% !important;
+}
+
 .highlight{
     background-color: rgba(77, 77, 77, 0.76);
     filter: drop-shadow(5px 5px 5px rgba(77, 77, 77, 0.76));
