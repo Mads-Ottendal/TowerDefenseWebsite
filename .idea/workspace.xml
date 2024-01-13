@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="added new picture, made more responsive">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1705086694902" duration="1531000" />
       <workItem from="1705101650106" duration="85000" />
       <workItem from="1705144628386" duration="4915000" />
-      <workItem from="1705156800778" duration="5007000" />
+      <workItem from="1705156800778" duration="5365000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -320,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705163440872</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added new picture, made more responsive">
+      <option name="closed" value="true" />
+      <created>1705164313189</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1705164313189</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
