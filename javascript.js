@@ -17,6 +17,7 @@ addEventListener("DOMContentLoaded",onLoadFunction);
 function onLoadFunction(){
     changeContainerSize();
     formString()
+    buttonPhrases()
 }
 
 
@@ -45,6 +46,7 @@ function formString() {
         letItSnow();
         goToSlideShow();
         acrossTheStars();
+        valentine();
     })
 
 }
@@ -207,6 +209,82 @@ function acrossTheStars() {
             audio.currentTime = 0;
         }
         console.log("Across The Stars :)")
+    }
+}
+
+
+
+const phrases = [
+    "No",
+    "Are you sure?",
+    "Really really sure",
+    "Pookie please",
+    "Don't do this to me",
+    "My love..",
+    "I'm gonna cry...",
+    "You're breaking my heart :("
+]
+
+
+let phraseCounter = 0;
+let noButton = document.getElementById("noButton");
+noButton.addEventListener("click",e=>{
+    phraseCounter++;
+    if(phraseCounter<phrases.length) {
+        buttonPhrases();
+    }
+})
+
+function buttonPhrases(){
+    noButton.innerText=phrases[phraseCounter];
+    removeHearts();
+
+}
+
+
+let yesButton = document.getElementById("yesButton");
+yesButton.addEventListener("click", e=>{
+    createHearts(200);
+});
+
+
+const heartContent = ['&#128150', '&#128157', '&#128156','&#128151', '&#128158']
+
+let valentineContainer = document.getElementById("buttonContainer");
+
+const createHearts = (num) => {
+    for (var i = num; i > 0; i--) {
+        var heart = document.createElement("div");
+        heart.className = "heart";
+        heart.style.cssText = getRandomStyles();
+        heart.innerHTML = heartContent[random(5)]
+        valentineContainer.appendChild(heart);
+    }
+}
+
+
+
+function removeHearts(){
+    let divs = document.getElementsByTagName("div");
+    for(let i = divs.length-1; i>0; i--){
+        if(divs[i].classList.contains("heart")){
+            divs[i].remove();
+        }
+    }
+}
+
+
+function valentine(){
+    if(concatArray.includes("valentine")){
+        console.log("Valentine");
+        var path = window.location.pathname;
+        var page = path.split("/").pop();
+        if(page == "valentine.html"){
+            window.location = "index.html"
+        }
+        else {
+            window.location = "valentine.html";
+        }
     }
 }
 

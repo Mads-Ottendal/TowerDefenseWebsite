@@ -1,0 +1,93 @@
+body{
+    --textColor: #fefefe;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#container{
+        height: 100vh;
+        transition: opacity 500ms;
+        overflow: hidden;
+        background-color: hotpink;
+}
+
+#buttonContainer {
+    height: 96vh;
+    margin: 2vw;
+    overflow: auto;
+}
+
+#buttonContainer > button{
+    width: 10%;
+    position:relative;
+    top:35%;
+    left:40%;
+    aspect-ratio: 1/1;
+
+    vertical-align: middle;
+    margin: 15px;
+
+
+}
+
+#yesButton{
+    background-color: limegreen;
+}
+
+#noButton{
+    background-color: red;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+#head{
+    color: green;
+    position:relative;
+    left:35%;
+    font-size: calc(1.5em + 1.5vw);
+}
+
+
+
+
+@keyframes fall {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        top: 100vh;
+        opacity: 1;
+    }
+}
+@keyframes sway {
+    0% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: 50px;
+    }
+    50% {
+        margin-left: -50px;
+    }
+    75% {
+        margin-left: 50px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+
+.heart {
+    animation: fall ease-in infinite, sway ease-in-out infinite;
+    color: skyblue;
+    position: absolute;
+    z-index: 1;
+}
