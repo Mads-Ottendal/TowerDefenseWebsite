@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="added new picture, made more responsive">
-      <change afterPath="$PROJECT_DIR$/stylesheets/valentineSheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valentine.html" afterDir="false" />
+    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="Valentine easter egg">
+      <change afterPath="$PROJECT_DIR$/gifs/bearFlowerGif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifs/bearsHugging.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/valentineSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/valentineSheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valentine.html" beforeDir="false" afterPath="$PROJECT_DIR$/valentine.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,11 +77,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gifs" />
       <recent name="$PROJECT_DIR$/Pictures" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Songs" />
       <recent name="$PROJECT_DIR$/the game" />
-      <recent name="$PROJECT_DIR$/Video" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,7 +109,8 @@
       <workItem from="1705156800778" duration="5699000" />
       <workItem from="1705760493296" duration="580000" />
       <workItem from="1705761458271" duration="768000" />
-      <workItem from="1707508599310" duration="4651000" />
+      <workItem from="1707508599310" duration="4778000" />
+      <workItem from="1707580337223" duration="13361000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -357,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705164974999</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Valentine easter egg">
+      <option name="closed" value="true" />
+      <created>1707513382559</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707513382559</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +394,7 @@
     <MESSAGE value="test with audio" />
     <MESSAGE value="make more responsive" />
     <MESSAGE value="added new picture, made more responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new picture, made more responsive" />
+    <MESSAGE value="Valentine easter egg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valentine easter egg" />
   </component>
 </project>

@@ -232,25 +232,109 @@ noButton.addEventListener("click",e=>{
     phraseCounter++;
     if(phraseCounter<phrases.length) {
         buttonPhrases();
+        makeYesButtonBigger();
     }
+    removeHearts();
 })
 
 function buttonPhrases(){
     noButton.innerText=phrases[phraseCounter];
-    removeHearts();
-
 }
 
 
 let yesButton = document.getElementById("yesButton");
+let noClicks=0;
+function makeYesButtonBigger(){
+    if(noClicks==0) {
+        yesButton.setAttribute("style", "width:" + "" + 5 + "vw !important;\n" +
+            "font-size: " + 18 + "px !important;");
+        noClicks++
+    }
+    let widthBefore = yesButton.getAttribute("style","width")
+    const styleArray = widthBefore.split("");
+    let numberString =  styleArray.at(6);
+    let fontSizeString1 = styleArray.at(33);
+    let fontSizeString2 = styleArray.at(34);
+    let fontSizeString3 = styleArray.at(35);
+    let fontSizeCombined = fontSizeString1+fontSizeString2;
+    console.log("FontSizeCombined " + fontSizeCombined)
+    let fontSizeNumber;
+    console.log("fontSize3: "+fontSizeString3)
+
+    if(Number.isInteger(Number(fontSizeString3))){
+        fontSizeNumber = Number(fontSizeCombined+fontSizeString3);
+    }
+    else{
+        fontSizeNumber = Number(fontSizeString1+fontSizeString2);
+    }
+    let number = Number(numberString);
+    if(number===1 || number ===2 || number===3 || number===4){
+        let number2 = styleArray.at(7)
+        let newNumber = numberString+number2
+        number = Number(newNumber);
+    }
+    else{
+        console.log("not one");
+        let number = Number(numberString);
+    }
+    if(noClicks!=0) {
+        let newSize = number + 5
+        let newFontSize = fontSizeNumber + 25
+        console.log(newFontSize)
+        yesButton.setAttribute("style", "width:" + "" + newSize + "vw !important;\n" +
+                                            "font-size:" + newFontSize + "px !important;");
+    }
+    if(noClicks!=phraseCounter) {
+        noClicks++;
+    }
+    changeGapDifference(noClicks)
+}
+
+
+function changeGapDifference(number){
+    if(number==1){
+        buttonContainer.style.gridGap="10%";
+    }
+    if(number==2){
+        buttonContainer.style.gridGap="22%";
+    }
+    if(number==3){
+        buttonContainer.style.gridGap="37%";
+    }
+    if(number==4){
+        buttonContainer.style.gridGap="45%";
+    }
+    if(number==5){
+        buttonContainer.style.gridGap="57%";
+    }
+    if(number==6){
+        buttonContainer.style.gridGap="65%";
+    }
+    if(number==7){
+        buttonContainer.style.gridGap="75%";
+    }
+}
+
+
+
+let buttonContainer = document.getElementById("buttonContainer");
+let gifOfBearRoses = document.getElementById("flyingBear");
 yesButton.addEventListener("click", e=>{
     createHearts(200);
+    let p = document.createElement("p");
+    p.appendChild(document.createTextNode("YAY!"))
+    buttonContainer.innerHTML=""
+    buttonContainer.appendChild(p);
+    gifOfBearRoses.setAttribute("src","./gifs/bearsHugging.gif")
+    valentineContainer.firstElementChild.innerText="";
+
+
 });
 
 
 const heartContent = ['&#128150', '&#128157', '&#128156','&#128151', '&#128158']
 
-let valentineContainer = document.getElementById("buttonContainer");
+let valentineContainer = document.getElementById("container");
 
 const createHearts = (num) => {
     for (var i = num; i > 0; i--) {
