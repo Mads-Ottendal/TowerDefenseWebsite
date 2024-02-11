@@ -245,40 +245,41 @@ function buttonPhrases(){
 let yesButton = document.getElementById("yesButton");
 let noClicks=0;
 function makeYesButtonBigger(){
-    if(noClicks==0) {
+    if(noClicks===0) {
         yesButton.setAttribute("style", "width:" + "" + 5 + "vw !important;\n" +
             "font-size: " + 18 + "px !important;");
         noClicks++
     }
     let widthBefore = yesButton.getAttribute("style","width")
     const styleArray = widthBefore.split("");
-    let numberString =  styleArray.at(6);
+    let numberString1 =  styleArray.at(6);
+    let numberString2 =  styleArray.at(7);
+
+    console.log(numberString1 + "|" + numberString2)
+
+
+
+    let buttonSize = numberString1+numberString2;
     let fontSizeString1 = styleArray.at(33);
     let fontSizeString2 = styleArray.at(34);
     let fontSizeString3 = styleArray.at(35);
     let fontSizeCombined = fontSizeString1+fontSizeString2;
-    console.log("FontSizeCombined " + fontSizeCombined)
     let fontSizeNumber;
-    console.log("fontSize3: "+fontSizeString3)
-
+    let number;
     if(Number.isInteger(Number(fontSizeString3))){
         fontSizeNumber = Number(fontSizeCombined+fontSizeString3);
     }
     else{
         fontSizeNumber = Number(fontSizeString1+fontSizeString2);
     }
-    let number = Number(numberString);
-    if(number===1 || number ===2 || number===3 || number===4){
-        let number2 = styleArray.at(7)
-        let newNumber = numberString+number2
-        number = Number(newNumber);
+    if(Number.isInteger(Number(numberString2))){
+        number = Number(buttonSize);
     }
     else{
-        console.log("not one");
-        let number = Number(numberString);
+         number = Number(numberString1);
     }
     if(noClicks!=0) {
-        let newSize = number + 5
+        let newSize = number + 10
         let newFontSize = fontSizeNumber + 25
         console.log(newFontSize)
         yesButton.setAttribute("style", "width:" + "" + newSize + "vw !important;\n" +
@@ -293,25 +294,25 @@ function makeYesButtonBigger(){
 
 function changeGapDifference(number){
     if(number==1){
-        buttonContainer.style.gridGap="10%";
+        buttonContainer.style.gridGap="15%";
     }
     if(number==2){
-        buttonContainer.style.gridGap="22%";
+        buttonContainer.style.gridGap="25%";
     }
     if(number==3){
-        buttonContainer.style.gridGap="37%";
+        buttonContainer.style.gridGap="35%";
     }
     if(number==4){
         buttonContainer.style.gridGap="45%";
     }
     if(number==5){
-        buttonContainer.style.gridGap="57%";
+        buttonContainer.style.gridGap="60%";
     }
     if(number==6){
-        buttonContainer.style.gridGap="65%";
+        buttonContainer.style.gridGap="75%";
     }
     if(number==7){
-        buttonContainer.style.gridGap="75%";
+        buttonContainer.style.gridGap="85%";
     }
 }
 

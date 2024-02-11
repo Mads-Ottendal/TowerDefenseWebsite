@@ -12,7 +12,7 @@ body{
     background-color: hotpink;
     display: grid;
     justify-content: center;
-    grid-template-rows: 5% 55% 25%;
+    grid-template-rows: 5% 65% 25%;
 }
 
 #head{
@@ -39,9 +39,9 @@ img{
 
 
 #buttonContainer button{
-    width: 3.7vw;
+    width: 5.5vw;
     position:relative;
-    aspect-ratio: 1/0.8;
+    aspect-ratio: 1/0.7;
     vertical-align: middle;
     border: none;
     border-radius: 10px;
@@ -55,16 +55,14 @@ img{
 }
 
 #buttonContainer p {
-    position: relative;
-    top: -100%;
     font-size: 144px;
     color: #fefefe;
 }
 
 #yesButton{
     background-color: limegreen;
-    width: 5vw!important;
-    font-size: 18px !important;
+    width: 7vw!important;
+    font-size: 16px !important;
     margin: 20% 0px 50% 0px;
 }
 
