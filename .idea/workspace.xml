@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="Valentine easter egg">
-      <change afterPath="$PROJECT_DIR$/gifs/bearFlowerGif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gifs/bearsHugging.gif" afterDir="false" />
+    <list default="true" id="413cda80-d827-4114-a2c1-9d167aae9f63" name="Changes" comment="New valentine easterEgg. not very pretty implementation :(">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/valentineSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/valentineSheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valentine.html" beforeDir="false" afterPath="$PROJECT_DIR$/valentine.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +105,8 @@
       <workItem from="1705760493296" duration="580000" />
       <workItem from="1705761458271" duration="768000" />
       <workItem from="1707508599310" duration="4778000" />
-      <workItem from="1707580337223" duration="13361000" />
+      <workItem from="1707580337223" duration="13430000" />
+      <workItem from="1707660947822" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="Website start for the download of the TTD game">
       <option name="closed" value="true" />
@@ -368,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707513382559</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="New valentine easterEgg. not very pretty implementation :(">
+      <option name="closed" value="true" />
+      <created>1707598215578</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707598215578</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +399,7 @@
     <MESSAGE value="make more responsive" />
     <MESSAGE value="added new picture, made more responsive" />
     <MESSAGE value="Valentine easter egg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valentine easter egg" />
+    <MESSAGE value="New valentine easterEgg. not very pretty implementation :(" />
+    <option name="LAST_COMMIT_MESSAGE" value="New valentine easterEgg. not very pretty implementation :(" />
   </component>
 </project>
